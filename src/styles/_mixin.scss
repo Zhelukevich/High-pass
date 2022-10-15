@@ -1,0 +1,25 @@
+@mixin gost_befor {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  padding: 6px 14px;
+  font-family: $fontA;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: $colorWhite;
+  background-color: $colorGreyL;
+}
+
+@mixin gost_befor_320 {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px 14px;
+  font-family: $fontA;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: $colorWhite;
+  background-color: $colorGreyL;
+}
